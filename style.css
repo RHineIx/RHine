@@ -8,12 +8,23 @@
     background-color: #1A171E;
 }
 
+@media screen and (max-width: 720px) {
+    .hey-rhine{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .about-rhine{
+        text-align: center;
+    }
+}
 .rhine{
     padding: 40px 40px;
 }
 .hey-rhine{
     width: 100%;
-    min-height: 100vh;
+    min-height: 50vh;
     display: flex;
     align-items: center;
     background-position: center;
