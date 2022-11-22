@@ -21,6 +21,7 @@
 .rhine{
     padding: 40px 40px;
     background-color: #1A171E;
+    padding-bottom: 100px;
 }
 .hey-rhine{
     width: 100%;
@@ -39,6 +40,7 @@
     padding-left: 10px;
     font-size: 40px;
     font-weight: 400;
+    margin-top: 15px;
 }
 .hey-rhine p span{
     font-weight: 500;
@@ -46,6 +48,8 @@
 
 .about-rhine{
 align-items: center;
+text-align: center;
+
 }
 
 .about-rhine p{
@@ -130,11 +134,13 @@ a{
 .end{
     display: flex;
     justify-content: center;
+    margin-bottom: 5px;
+    margin-top: 45px;
 }
 
 .end p{
     font-family: 'Space Grotesk', sans-serif;
-    font-weight: 200;
-    font-size: 15px;
+    font-weight: 300;
+    font-size: 5px;
     color: #585858;
 }
