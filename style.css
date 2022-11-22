@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600&display=swap');
 
 *{
     font-family: 'Space Grotesk', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #1A171E;
+    
 }
 
 @media screen and (max-width: 720px) {
@@ -21,6 +20,7 @@
 }
 .rhine{
     padding: 40px 40px;
+    background-color: #1A171E;
 }
 .hey-rhine{
     width: 100%;
@@ -54,6 +54,7 @@ align-items: center;
 }
 .about-rhine p span{
     font-weight: 600;
+    font-family: 'Space Grotesk', sans-serif;
 }
 
 .social-icons a{
@@ -64,4 +65,76 @@ align-items: center;
 }
 .tele{
     margin-right: 5px;
+}
+
+/*=====prt2=====*/
+
+.prt2{
+    background-color: #fff;
+    margin-top: 50px;
+}
+
+.my_ch{
+    display: flex;
+    justify-content: center;
+    color: #3a6cf4;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 2.2em;
+    margin-bottom: 30px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row; /*ot column*/
+    flex-wrap: wrap;
+}
+
+.channl{
+    background-color: #ffffff;
+    width: 15.25em;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 25%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+}
+
+.icon{
+    color: #3a6cf4;
+    font-size: 45px;
+    text-align: center;
+}
+
+.info{
+    text-align: center;
+}
+
+.info h3{
+    color: #3a6cf4;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.info p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+a{
+    text-decoration: none;
+}
+
+.end{
+    display: flex;
+    justify-content: center;
+}
+
+.end p{
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+    color: #585858;
 }
